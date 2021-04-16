@@ -1,6 +1,6 @@
 function celsiusafaren(){
     let celsius = document.querySelector('#BC');
-    celsius= (BC.value*9/5)+32;
+    celsius= (BC.value *9/5)+32;
     console.log(celsius+" Grados Celsius");
     BC.value=celsius;
 }
